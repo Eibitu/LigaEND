@@ -1,0 +1,1 @@
+export default function(pool) { const router = require('express').Router(); /* generate and get calendar */ return router; }

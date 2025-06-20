@@ -1,0 +1,1 @@
+export default function(pool) { const router = require('express').Router(); /* standings, pdf */ return router; }
