@@ -1,1 +1,8 @@
-export default function(pool) { const router = require('express').Router(); /* standings, pdf */ return router; }
+import express from 'express';
+const router = express.Router();
+
+router.get('/', (req, res) => {
+  res.send('Standings OK');
+});
+
+export default router;

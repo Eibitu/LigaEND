@@ -1,1 +1,8 @@
-export default function(pool) { const router = require('express').Router(); /* generate and get calendar */ return router; }
+import express from 'express';
+const router = express.Router();
+
+router.get('/', (req, res) => {
+  res.send('Calendar OK');
+});
+
+export default router;
